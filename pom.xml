@@ -349,6 +349,7 @@
             <inherited>true</inherited>
             <configuration>
               <doclint>none</doclint>
+              <additionalOptions>--frames</additionalOptions>
             </configuration>
             <executions>
               <execution>

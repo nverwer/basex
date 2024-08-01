@@ -94,7 +94,7 @@ public final class FnTransparentInvisibleXml extends StandardFunc {
      * @param parser generated invisible XML parser
      */
     private ParseTransparentInvisibleXml(final InputInfo info, final de.bottlecaps.markup.blitz.Parser parser, final Expr... args) {
-      super(info, DOCUMENT_NODE_O, args);
+      super(info, ELEMENT_O, args);
       this.parser = parser;
     }
 
